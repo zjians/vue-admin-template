@@ -26,7 +26,7 @@ export default {
   position: relative;
   overflow: auto;
 }
-.fixed-header+.app-main {
+.fixed-header + .app-main {
   /* margin-top: 50px; */
   transform: translateY(50px);
 }

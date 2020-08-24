@@ -50,7 +50,7 @@ const actions = {
   /**
    * 生成当前用户可以访问的路由
    * @param {Array} roles 当前登录用户有的权限 exp: ['admin', 'editor', 'test']
-  */
+   */
   generateRoutes({ commit }, roles) {
     return new Promise(resolve => {
       let accessedRoutes

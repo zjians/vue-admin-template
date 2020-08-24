@@ -5,6 +5,8 @@
   "trailingComma": "none",
   "printWidth": 100,
   "proseWrap": "never",
+  "arrowParens": "avoid",
+  "jsxBracketSameLine": false,
   "overrides": [
     {
       "files": ".prettierrc",
