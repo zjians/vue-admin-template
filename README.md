@@ -4,7 +4,7 @@
 
 # 代码风格 & 规范
 
-建议参考 vue 官方[风格指南](https://cn.vuejs.org/v2/style-guide/) 建议使用[jsdoc](http://shouce.jb51.net/jsdoc/about-namepaths.html)的方式添加函数备注。<br> git 提交规范：希望使用 `<type>: <subject>`的格式提交代码<br>
+建议参考 vue 官方[风格指南](https://cn.vuejs.org/v2/style-guide/) 建议使用[jsdoc](http://shouce.jb51.net/jsdoc/about-namepaths.html)的方式添加函数备注。<br> git 提交规范：希望使用 `<type>: <subject>`的格式提交代码（冒号后需要加一个空格）<br>
 
 ##### type 说明:<br>
 
@@ -44,8 +44,8 @@ npm run preview -- --report
 # 代码格式检查
 npm run lint
 
-# 代码格式检查并自动修复
-npm run lint -- --fix
+# 代码格式检查和自动修复
+npm run lint:fix
 ```
 
 ## Browsers support

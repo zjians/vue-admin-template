@@ -9,8 +9,8 @@
     "build:prod": "vue-cli-service build",
     "build:stage": "vue-cli-service build --mode staging",
     "preview": "node build/index.js --preview",
-    "lint": "eslint --ext .js src mock && npm run lint:prettier 'src/**/*.{js,jsx,ts,tsx,md,vue}, mock'",
-    "prettier:fix": "node ./scripts/prettier.js 'src/**/*.{js,jsx,ts,tsx,md,vue,sass,scss}'",
+    "lint": "eslint --ext .js src mock",
+    "lint:fix": "node ./scripts/prettier.js 'src/**/*.{js,jsx,ts,tsx,md,vue,sass,scss}'",
     "test:unit": "jest --clearCache && vue-cli-service test:unit",
     "test:ci": "npm run lint && npm run test:unit",
     "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml"
